@@ -1,3 +1,5 @@
+from random import random
+import random
 """
     Problem Solving Methods -- Divide & Conquer and Backtracking
 """
@@ -5,7 +7,13 @@
 """
 1. Find the smallest number in a list (chip & conquer, divide in halves, recursive vs non-recursive). Return None for
     an empty list
+    
+    ! All solutions consists of:
+        - function that calculates the min
+        - separat test function
     a. Chip & conquer, recursive
+    - divide the list into first element and the remaining elements
+    
     b. Divide in halves, non-recursive
     c. Divide in halves, recursive
 """
@@ -21,6 +29,16 @@
 """
 3. Calculate the r-th root of a given number x with a given precision p
 """
+x = 2
+r = 10
+p = 0.0001
+# result = ?
+def root_r(x: int, r:int, p:float):
+    """
+    return number v so that x - p <= v^r <= x + p
+    """
+    v =
+
 
 """
 4. Calculate the maximum subarray sum (subarray = elements having continuous indices)
